@@ -43,7 +43,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(images/background\ -\ Modifié.png) no-repeat;
+    background-color: #000118;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -270,7 +270,7 @@ section{
         align-items: center;
     }
     .main {
-        background:url(/images/mediabackground.jpg) no-repeat fixed;
+        background-color: #000118;
     }
 
 }
