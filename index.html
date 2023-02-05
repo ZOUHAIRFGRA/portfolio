@@ -43,7 +43,7 @@
                     </div>
                     <div class="info">
                         <h3>Web developer</h3>
-                        <p>WEB ipsum dolor sit amet consectetur</p>
+                        <p>Proficient in HTML, CSS, JavaScript and modern front-end frameworks.</p>
                     </div>
                 </div>
 
@@ -53,7 +53,7 @@
                     </div>
                     <div class="info">
                         <h3>Graphic Designer</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                        <p>Experienced in designing logos, brochures, posters, and other marketing materials.</p>
                     </div>
                 </div>
                 <div class="card">
@@ -62,7 +62,7 @@
                     </div>
                     <div class="info">
                         <h3>Video Editor</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. .</p>
+                        <p>Experienced in creating engaging video content for social media, TV commercials, and corporate videos.</p>
                     </div>
                 </div>
 
@@ -75,12 +75,12 @@
             <div class="content">
                 <div class="project-card">
                     <div class="project-image">
-                        <img src="/images/portfolio src.PNG" />
+                        <img src="images/USGDP2.PNG" />
                     </div>
                     <div class="project-info">
-                        <p class="project-category">Portfolio Example</p>
+                        <p class="project-category">BAR CHART using D3 library</p>
                         <strong class="project-title">
-                            <span>Portfolio source</span>
+                            <span>US GDP Chart</span>
                             <a href="https://codepen.io/ZOUHAIRFGRA/pen/ExRGZJJ" class="more-details">More details</a>
                         </strong>
                     </div>
@@ -150,7 +150,7 @@
         <section class="cards contact" id="contact">
             <h2 class="title">Let's work together</h2>
             <div class="content">
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'https://t.me/ZGRA_YT'">
                     <div class="icon">
                         <i class="fas fa-phone"></i>
                     </div>
@@ -159,7 +159,7 @@
                         <p>ZGRA_YT</p>
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" onclick="window.location.href = 'mailto:zouhairfgra@gmail.com'">
                     <div class="icon">
                         <i class="fas fa-envelope"></i>
                     </div>
@@ -180,6 +180,27 @@
                 <a href="https://www.youtube.com/channel/UCf9_wPxfmPowIyG6bSPu3GQ"><i class="fab fa-youtube"></i></a>
             </div>
         </footer>
-    
+        <div id="cookie-banner">
+            <p>This website uses cookies to ensure you get the best experience on our website. <a href="#" id="cookie-banner-learn-more">Learn more</a></p>
+            <button id="cookie-banner-accept">Accept</button>
+        </div>
+
+        <script>
+        // Get the button element by its ID
+        var acceptButton = document.getElementById("cookie-banner-accept");
+
+        // Get the cookie bar element by its ID
+        var cookieBanner = document.getElementById("cookie-banner");
+
+        // Check if the button and cookie bar elements exist
+        if (acceptButton && cookieBanner) {
+            // Add an event listener to the button to hide the cookie bar when it's clicked
+            acceptButton.addEventListener("click", function() {
+            cookieBanner.style.display = "none";
+            });
+        }
+        </script>
+
+
 </body>
 </html>

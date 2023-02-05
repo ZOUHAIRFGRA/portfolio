@@ -295,3 +295,37 @@ section{
      
     }
 }
+
+#cookie-banner {
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#cookie-banner p {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+#cookie-banner a {
+    color: #333;
+    text-decoration: underline;
+}
+
+#cookie-banner button {
+    background-color: #3a6cf4;
+    border: none;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-left: 10px;
+}
